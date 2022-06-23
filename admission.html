@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="$1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="form.css">
+  
+</head>
+
+<div class="form-style-5">
+  <img class="formimg" src="aman.jpg">
+  <H3 align="center" class="clrmatch"
+>APPLICATION FOR ENTRANCE 2020</H3>
+<h4 align="center" class="clrmatch
+">Qualification for admission</h4>
+<div class=bgqual>
+<h5>Plus one</h5>
+<h6 class="pad"> 7th std madrassa</h6>
+<h6 class="pad">SSLC completed with above average</h6>
+
+<h5>Degree</h5>
+<h6 class="pad">Completed  the Nahvu Kithab</h6>
+<h6 class="pad"> Higher Secondary Education </h6>
+
+
+</div>
+<form action="formtest.php" method="POST">
+<fieldset>
+<legend><span class="number">1</span> Candidate Info</legend>
+<input type="text" name="name" placeholder=" Name  of Applicant " required>
+<input type="text" name="place" placeholder="Place " required>
+<input type="number" name="age" placeholder="Age " required>
+<label>date of birth</label>
+<input type="date" name="dob" placeholder=" " required>
+
+<label for="course">Admission for:</label>
+<select id="course" name="course" value="Course" required>
+  <option value="commerce">Commerce_+1</option>
+  <option value="humanities">Humanities_+1</option>
+  <option value="degree">Degree</option>
+</select>      
+</fieldset><br>
+<fieldset>
+<legend><span class="number">2</span> Additional Info</legend>
+<input type="text" name="fathername" placeholder=" Name of father " required>
+<textarea name="address" placeholder="Address"></textarea>
+<input type="text" name="district" placeholder="District " required>
+<input type="text" name="sslcno" placeholder="SSLC reg no(N/A for degree applicants)
+ ">
+<input type="text" name="laststudied" placeholder="Last studied institution " required>
+<input type="number" name="contact1" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<input type="number" name="contact2" placeholder="Another contact" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<input type="checkbox" name="mark" required>I, hereby, agree to present the required documents upon demand by the concerned authorities and promise to abide by the admissible rules and regulations of the institute.
+
+</fieldset>
+<input type="submit" value="Apply" />
+</form>
+</div>
+</html>
