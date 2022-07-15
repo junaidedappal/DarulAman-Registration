@@ -54,10 +54,7 @@ a:visited {
     </tr>
 
 <?php
-                    $host="localhost";
-                    $user="id11682759_junaidkottilil";
-                    $password="Mu/7034911822";
-                    $dB="id11682759_localhost";
+                   
                     $conn = mysqli_connect($host, $user,  $password, $dB);
                      $sql = "SELECT * FROM `admissiondetails`";
                     if ($result=mysqli_query($conn,$sql))
