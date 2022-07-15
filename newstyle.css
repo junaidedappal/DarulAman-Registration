@@ -1,0 +1,150 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    background-size: cover;
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    cursor:pointer;
+    color:#FFF;
+    font-size:1.7em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    background-color: #32CD32;
+
+}
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.4em;
+    padding: 0px;
+    }
+    .phone{
+max-width: 8px;
+margin-bottom: -2.5px;
+max-height: 8px;
+
+}
+
+}
+
+.push {
+    margin-left: auto;
+}
+
+.navlist {
+
+    color: #f6f6f6;
+    margin-right: 10px;
+
+   
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.phone{
+max-width: 15px;
+margin-bottom: -2px;
+max-height: 15px;
+
+}
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+ 
+ .logo{
+    height: 60px; 
+    
+ }
+.container {
+    /*show heigh: auto*/
+    height: 75vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("abc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+h1,h3,h4,h2,h5{
+    color: white;
+
+}
+
+
+.button1 {
+  border: 1px solid #228B22; 
+  background-color: #228B22 ;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin-left: 40%;
+  /*display: inline-block;
+  font-size: 15px;
+  margin-bottom: 200px;
+  margin-top: 30px;*/
+
+}
+
+.button1:hover {
+    color: white;
+  border: 2px solid #000000;
+   background-color: #228B22;
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    font-size: .7em;
+}
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background-color: #000;
+    
+}
+
+.foot{
+font-size:.6em;
+}
+

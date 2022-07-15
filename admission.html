@@ -18,25 +18,25 @@
 <div class=bgqual>
 <h5>Plus one</h5>
 <h6 class="pad"> 7th std madrassa</h6>
-<h6 class="pad">SSLC completed with above average</h6>
+<h6 class="pad">High performance in SSLC</h6>
 
 <h5>Degree</h5>
-<h6 class="pad">Completed  the Nahvu Kithab</h6>
-<h6 class="pad"> Higher Secondary Education </h6>
+<h6 class="pad">Completed  NahvuKithab</h6>
+<h6 class="pad">Completed SecondaryEducation</h6>
 
 
 </div>
-<form action="formtest.php" method="POST">
+<form action="formpage.php" method="POST">
 <fieldset>
 <legend><span class="number">1</span> Candidate Info</legend>
 <input type="text" name="name" placeholder=" Name  of Applicant " required>
-<input type="text" name="place" placeholder="Place " required>
+<input type="text" name="place" placeholder="place " required>
 <input type="number" name="age" placeholder="Age " required>
 <label>date of birth</label>
-<input type="date" name="dob" placeholder=" " required>
+<input type="date" name="dob" placeholder="birthdate " required>
 
 <label for="course">Admission for:</label>
-<select id="course" name="course" value="Course" required>
+<select id="course" name="course" value="course" required>
   <option value="commerce">Commerce_+1</option>
   <option value="humanities">Humanities_+1</option>
   <option value="degree">Degree</option>
@@ -45,15 +45,13 @@
 <fieldset>
 <legend><span class="number">2</span> Additional Info</legend>
 <input type="text" name="fathername" placeholder=" Name of father " required>
-<textarea name="address" placeholder="Address"></textarea>
-<input type="text" name="district" placeholder="District " required>
-<input type="text" name="sslcno" placeholder="SSLC reg no(N/A for degree applicants)
- ">
-<input type="text" name="laststudied" placeholder="Last studied institution " required>
-<input type="number" name="contact1" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-<input type="number" name="contact2" placeholder="Another contact" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-<input type="checkbox" name="mark" required>I, hereby, agree to present the required documents upon demand by the concerned authorities and promise to abide by the admissible rules and regulations of the institute.
-
+<textarea name="address" placeholder="address"></textarea>
+<input type="text" name="district" placeholder="district " required>
+<input type="text" name="sslcno" placeholder="sslc reg no(not for degree applicant) ">
+<input type="text" name="laststudied" placeholder="last studied institution " required>
+<input type="number" name="contact1" placeholder="mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<input type="number" name="contact2" placeholder="another contact" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<input type="checkbox" name="mark" required>I, hereby, undertake to present the original documents immediately upon demand by the concerned authorities of the Institute, <br>  promise to abide by the admissible rules and regulations, concerning discipline, etc.
 </fieldset>
 <input type="submit" value="Apply" />
 </form>
