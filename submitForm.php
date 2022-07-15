@@ -61,7 +61,7 @@
  <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "id11682759_junaidkottilil", "Mu/7034911822", "id11682759_localhost");
+$link = mysqli_connect(".....");
   $name = $_POST['name'];
 $place = $_POST['place'];
 $age = $_POST['age'];
